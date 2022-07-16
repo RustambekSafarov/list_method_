@@ -10,13 +10,13 @@ int func(List fruits){
   int i = 0;
   int y = 0;
   int x = fruits.length-1;
-  while(x>=i){
-    if(fruits.contains('apple')){
+  while(x>i){
+    if(fruits[i]=='apple'){
       y++;
     }
     i++;
   }
-  return y-1;
+  return y;
 }
 void main() {
   print(func(["apple", "banana", "apple", "pear"]));
