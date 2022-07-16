@@ -7,4 +7,18 @@
         int: return answer
 */
 
-void main() {}
+int func(List fruits){
+  int i = 0;
+  int y = 0;
+  int x = fruits.length-1;
+  while(x>i){
+    if(fruits.contains(0)){
+      y++;
+    }
+    i++;
+  }
+  return y;
+}
+void main() {
+  print(func([1,0,1,1,1,0,1]));
+}
