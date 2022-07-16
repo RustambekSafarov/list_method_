@@ -12,7 +12,7 @@ int func(List fruits){
   int y = 0;
   int x = fruits.length-1;
   while(x>=i){
-    if(fruits.contains(0)){
+    if(fruits[i]==0){
       y++;
     }
     i++;
