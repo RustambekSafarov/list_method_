@@ -12,5 +12,5 @@ List func(List numbers,int i){
   return numbers;
 }
 void main() {
-  print()
+  print(func([3,5,3,2,1],2));
 }
