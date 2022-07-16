@@ -8,7 +8,7 @@
         list: return answer
 */
 List func(List fruits1,String x,String y){
-  fruits.add(x)
+  fruits1.add(x);
   fruits1.add(y);
   return fruits1;
 }
