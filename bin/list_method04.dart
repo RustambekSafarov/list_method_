@@ -8,8 +8,10 @@
         list: return answer
 */
 List func(List numbers,int i){
-  numbers.take(i);
-  return numbers;
+  numbers[i];
+  List x = [];
+  x.add(numbers[i]);
+  return x;
 }
 void main() {
   print(func([3,5,3,2,1],2));
