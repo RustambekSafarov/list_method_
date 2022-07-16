@@ -6,5 +6,18 @@
     Returns:
         int: return answer
 */
-
-void main() {}
+int func(List fruits){
+  int i = 0;
+  int y = 0;
+  int x = fruits.length-1;
+  while(x>i){
+    if(fruits.contains('apple')){
+      y++;
+    }
+    i++;
+  }
+  return y;
+}
+void main() {
+  print(func(["apple", "banana", "apple", "pear"]));
+}
