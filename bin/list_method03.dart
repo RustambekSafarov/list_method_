@@ -7,8 +7,9 @@
     Returns:
         list: return answer
 */
-List func(List fruits1,int fruits2){
-  fruits1.add(fruits2);
+List func(List fruits1,String x,String y){
+  fruits.add(x)
+  fruits1.add(y);
   return fruits1;
 }
 void main() {
