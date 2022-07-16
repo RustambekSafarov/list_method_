@@ -7,5 +7,10 @@
     Returns:
         list: return answer
 */
-
-void main() {}
+List func(List numbers,int i){
+  numbers.take(i);
+  return numbers;
+}
+void main() {
+  print()
+}
