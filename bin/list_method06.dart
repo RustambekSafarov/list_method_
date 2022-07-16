@@ -9,9 +9,9 @@
 int func(List fruits){
   int i = 0;
   int y = 0;
-  int x = fruits.length-1;
+  int x = fruits.length;
   while(x>i){
-    if(fruits[i]=='apple'){
+    if(fruits[i]=="apple"){
       y++;
     }
     i++;
@@ -19,5 +19,5 @@ int func(List fruits){
   return y;
 }
 void main() {
-  print(func(["apple", "banana", "apple", "pear"]));
+  print(func(["apple", "banana", "apple", "pear", "apple", "apple", "apple"]));
 }
