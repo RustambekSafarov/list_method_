@@ -9,11 +9,11 @@
 List func(List fruits){
   int i = 0;
   int x= fruits.length-1;
-  int y = 
+ // String y = '';
   while(x>i){
-    
-    fruits.remove(fruits[i]);
-    
+    //y = fruits[i];
+  //  if(fruits[i]=='apple')
+    fruits.remove('apple');
     i++;
   }
   return fruits;
