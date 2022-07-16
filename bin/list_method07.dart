@@ -11,7 +11,7 @@ int func(List fruits){
   int i = 0;
   int y = 0;
   int x = fruits.length-1;
-  while(x>i){
+  while(x>=i){
     if(fruits.contains(0)){
       y++;
     }
